@@ -18,13 +18,20 @@ class Pessoa {
     }
 
     removerAutomovelByCod(codigo) {
-        for (let i = 0; i < this.#automoveis.length; i++) {
+        let  index = this.#automoveis.findIndex((obj => obj.codigo == codigo));
+        if (index !== -1) {
+            this.#automoveis.splice(index, 1);
+        }
+    }
+    // Forma alternativa de fazer o método removerAutomovelByCod 
+    /*    for (let i = 0; i < this.#automoveis.length; i++) {
             if (this.#automoveis[i].codigo === codigo) {
                 this.#automoveis.splice(i, 1);
                 break;
             }
         }
-    }
+    } */
+    
 
     getAutomovel(codigo) {
         return this.#automoveis.find(auto => auto.codigo === codigo);
