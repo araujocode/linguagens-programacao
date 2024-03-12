@@ -1,0 +1,43 @@
+class Animal {
+    #name
+    #age
+    constructor(name, age) {
+        this.#name = name;
+        this.#age = age;
+    }
+
+    get name() {
+        return this.#name;
+    }
+    
+    set name(name) {
+        this.#name = name;
+    }
+
+    get age() {
+        return this.#age;
+    }
+
+    set age(age) {
+        this.#age = age;
+    }
+    
+    toString() {
+        return `Name: ${this.#name}, Age: ${this.#age}`;
+    }
+}
+
+let arrayAnimals = [];
+
+const animal = new Animal("Monkey", 2);
+const animal2 = new Animal("Dog", 6);
+const animal3 = new Animal("Crow", 7);
+const animal4 = new Animal("Lizard", 1);
+
+arrayAnimals.push(animal, animal2, animal3, animal4);
+
+arrayAnimals.forEach(animal => console.log(animal.toString()));
+
+let resultNewAnimals = arrayAnimals.filter(animal => animal.age > 5).join(" ");
+
+console.log(resultNewAnimals);
