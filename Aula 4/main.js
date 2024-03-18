@@ -7,7 +7,7 @@ let myArray = [10, 20, 18, 3, 55, 23, 11, 40];
 
 let result = myArray.find(myFunction18); //retorna apenas o primeiro elemento que satisfaz a condição da função de ser menor do que 18
 
-// myArray.find(valor, indice, array) -> ele recebe esses tres parametros, mas nao precisa
+// myArray.find(valor, indice, array) -> ele recebe esses tres parametros, mas nao precisa dos três
 
 function myFunction18(value) {
     return value > 18;
