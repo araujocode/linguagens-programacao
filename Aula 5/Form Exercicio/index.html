@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="https://www.w3schools.com/action_page.php" method="post">
+        <input type="date" name=""date> <br><br>
+
+        <fieldset>
+            <legend>Dados de Acesso:</legend>
+
+            <label for="fname">Usuário:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+
+            <label for="lpsswrd">Senha:</label><br>
+            <input type="password" id="lpsswrd" name="lpsswrd" value=""><br><br>
+
+            <input type="submit" value="Submit">
+        </fieldset><br><br>
+
+        <fieldset>
+
+            <legend>Dados Pessoais:</legend>
+
+            <label for="fname">Nome:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+
+            <label for="fadress">Endereço:</label><br>
+            <input type="password" id="fadress" name="fadress" value=""><br><br>
+
+            <label for="fnumber">Numero:</label><br>
+            <input type="number" id="fnumber" name="fnumber" value=""><br><br>
+
+            <label for="fcomplement">Complemento:</label><br>
+            <input type="text" id="fcomplement" name="fcomplement" value=""><br><br>
+            
+            <input list="cidades" name="cidades">
+                <datalist id="cidades">
+                    <option value="Sorocaba">
+                    <option value="Votorantim">
+                    <option value="Tatuí">
+                    <option value="Salto">
+                    <option value="São Paulo">
+                </datalist><br><br>
+
+            <label for="estados">Estados</label>
+                <select id="estados" name="estados">
+                    <option value="são paulo">São Paulo</option>
+                    <option value="rio de janeiro">Rio de Janeiro</option>
+                    <option value="minas gerais">Minas Gerais</option>
+                    <option value="santa catarina" selected>Santa Catarina</option>
+                </select><br><br>
+            
+        </fieldset>
+
+        <br>
+        <label for="fcep">CEP:</label><br>
+        <input type="text" id="fcep" name="fcep" value=""><br><br>
+
+        <label for="generos">Generos:</label><br>
+        <input type="radio" id="generomasc" name="genero" value="">
+        <label for="masculino">Masculino</label><br>
+
+        <input type="radio" id="generofem" name="genero" value="">
+        <label for="feminino">Feminino</label><br>
+
+        <input type="radio" id="generooutro" name="genero" value="">
+        <label for="outro">Outro</label><br><br>
+
+        <label for="cursos">Cursos:</label><br>
+        <input type="checkbox" id="ads" name="ads" value="ADS">
+        <label for="ads">ADS</label><br>
+
+        <input type="checkbox" id="jogos" name="jogos" value="JOGOS">
+        <label for="jogos">Jogos</label><br>
+
+        <input type="checkbox" id="gti" name="gti" value="GTI">
+        <label for="gti">GTI</label><br>
+
+        <input type="checkbox" id="bdd" name="bdd" value="BDD">
+        <label for="bdd">Banco de Dados</label><br><br>
+
+        <label for="modelo">Modelo:</label><br>
+        <input type="radio" id="presencial" name="modelo" value="presencial">
+        <label for="presencial">Presencial</label><br>
+
+        <input type="radio" id="ead" name="modelo" value="ead">
+        <label for="ead">EAD</label><br>
+        
+        <input type="radio" id="semipresencial" name="modelo" value="semipresencial">
+        <label for="semipresencial">Semi Presencial</label><br><br>
+
+
+            <input type="submit" value="Submit">
+        <br><br>
+
+    </form>
+    
+</body>
+</html>
