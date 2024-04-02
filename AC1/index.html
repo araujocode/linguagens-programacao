@@ -3,11 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Livraria</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="main.js" type="module"></script>
     <script src="classes.js" type="module"></script>
-    
+
+    <header class="header">
+        <h1 class="header-title">Saraiva</h1>
+        <h2 class="header-subtitle">Livraria</h2>
+    </header>
+
+    <nav class="menu">
+        <a href="index.html" class="menu-item">Home</a>
+        <a href="usuario.html" class="menu-item">Usuário</a>
+    </nav>
+
+    <div class="main-content container">
+        <img src="livraria.svg" alt="Livraria" class="bookstore-img">
+        <p class="bookstore-description">Livros dos usuários:</p>
+        <ul class="user-list">
+            <li class="user">João - Dom Quixote</li>
+            <li class="user">Maria - 1984</li>
+        </ul>
+    </div>
+
+    <footer class="footer">
+        Sorocaba, São Paulo - 2024
+    </footer>
+
 </body>
 </html>
