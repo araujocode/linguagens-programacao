@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(25, 83, 160);
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.circle {
+    border-radius: 50%;    
+}
+
+.cookin {
+    border: 5px solid green;
+}
+
+.sonico {
+    border: 5px solid yellow;
+}

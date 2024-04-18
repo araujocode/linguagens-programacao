@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(25, 83, 160);
+}
+
+main {
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cookin {
+    border: 5px solid green;
+}
+
+.sonico {
+    border: 5px solid yellow;
+}
+
+.scorsese {
+    border: 5px solid red;
+}

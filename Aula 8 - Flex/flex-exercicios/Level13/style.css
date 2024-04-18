@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(25, 83, 160);
+}
+
+main {
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+img {
+    height: 120px;
+    width: 120px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cookin {
+    border: 5px solid green;
+}
+
+.sonico {
+    border: 5px solid yellow;
+}
+
+.scorsese {
+    border: 5px solid red;
+}

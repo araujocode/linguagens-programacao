@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(25, 83, 160);
+}
+
+main {
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.cookin {
+    border: 5px solid green;
+}
