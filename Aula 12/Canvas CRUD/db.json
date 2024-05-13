@@ -1,0 +1,70 @@
+{
+  "cliente": [
+    {
+      "nome": "Lucas",
+      "idade": "25",
+      "email": "lucas@gmail.com",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nome": "Maria",
+      "email": "maria@gmail.com",
+      "idade": 30
+    },
+    {
+      "id": "3",
+      "nome": "José",
+      "email": "jose@gmail.com",
+      "idade": 35
+    },
+    {
+      "id": "4",
+      "nome": "Ana",
+      "email": "ana@gmail.com",
+      "idade": 40
+    },
+    {
+      "id": "5",
+      "nome": "Pedro",
+      "email": "pedro@gmail.com",
+      "idade": 45
+    },
+    {
+      "id": "6",
+      "nome": "Paula",
+      "email": "paula@gmail.com",
+      "idade": 50
+    },
+    {
+      "id": "7",
+      "nome": "Carlos",
+      "email": "carlos@gmail.com",
+      "idade": 55
+    },
+    {
+      "id": "8",
+      "nome": "Marta",
+      "email": "marta@gmail.com",
+      "idade": 60
+    },
+    {
+      "id": "9",
+      "nome": "Ricardo",
+      "email": "ricardo@gmail.com",
+      "idade": 65
+    },
+    {
+      "id": "10",
+      "nome": "Rita",
+      "email": "rita@gmail.com",
+      "idade": 70
+    },
+    {
+      "id": "f780",
+      "nome": "abas",
+      "idade": "15",
+      "email": "agas"
+    }
+  ]
+}
