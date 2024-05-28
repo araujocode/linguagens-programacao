@@ -1,0 +1,124 @@
+    * {}
+    
+    body {
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(0deg, #CDFFFC, #CDFFFC);
+    }
+    
+    .bemvindo {
+        width: 202px;
+        height: 24px;
+        top: 306px;
+        left: 348.89px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        color: white;
+    }
+    
+    .AC2 {
+        width: 400px;
+        height: 20px;
+        top: 354.78px;
+        left: 240px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        margin-bottom: 123.44px;
+        font-family: "Inter", sans-serif;
+        color: white;
+    }
+    
+    .home {
+        width: 111px;
+        height: 24px;
+        top: 363px;
+        left: 779px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: black;
+        font-family: "Inter", sans-serif;
+        margin-bottom: 48;
+    }
+    
+    .ola {
+        width: 400px;
+        height: 20px;
+        top: 435px;
+        left: 635px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        color: black;
+        font-family: "Inter", sans-serif;
+    }
+    
+    button {
+        width: 153.78px;
+        height: 40px;
+        top: 523px;
+        left: 368px;
+        border-radius: 8.89px;
+        border: 3px;
+        background-color: #0029FF;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        border-color: white;
+        border: 3px solid rgba(255, 255, 255, 1)
+    }
+    
+    .fundo {
+        justify-content: space-between;
+        display: flex;
+        background-color: rgba(75, 158, 255, 1);
+        width: 817.78px;
+        height: 516.44px;
+        top: 170px;
+        left: 231;
+        gap: 0px;
+        border-radius: 35.56px 35.56px 35.56px 35.56px;
+        opacity: 0px;
+        box-shadow: 4.44px -4.44px 8.89px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: -4.44px 4.44px 8.89px 0px rgba(0, 0, 0, 0.25);
+    }
+    
+    .esquerda {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+    
+    .direita {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }

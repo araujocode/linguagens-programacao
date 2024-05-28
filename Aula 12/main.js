@@ -1,29 +1,26 @@
-document.querySelector('form').addEventListener('submit', function (event) {
-    event.preventDefault();
+document.getElementById('formCadastro').addEventListener('submit', function (event) {
+    event.preventDefault(); 
+
+    let nome = document.getElementById('nome').value;
+    let email = document.getElementById('email').value;
+    let senha = document.getElementById('senha').value;
+
+    
+    if (nome.trim() === '' || email.trim() === '' || senha.trim() === '') {
+        document.getElementById('mensagem').innerHTML = 'Todos os campos são obrigatórios.';
+        return; 
+    }
+
+    
+    let novoUsuario = {
+        nome: nome,
+        email: email,
+        senha: senha
+    };
+
+
+    console.log('Novo usuário:', novoUsuario);
+
+    
+    document.getElementById('formCadastro').reset();
 });
-
-if(localStorage.getItem('login') && localStorage.getItem('senha')) {
-    document.querySelector('#login').value = localStorage.getItem('login'); 
-    document.querySelector('#senha').value = localStorage.getItem('senha');
-}
-
-
-function checkLogin() {
-    let login = document.querySelector('#login').value;
-    let senha = document.querySelector('#senha').value;
-
-
-    console.log(login + ' ' + senha);
-
-
-    if (login == 'admin' && senha == '123456') {
-        localStorage.setItem('login', login);
-        localStorage.setItem('senha', senha);
-
-
-        window.location.href = 'home.html';
-    }
-    else {
-        document.querySelector('#mensagem').innerHTML = 'Login ou senha inválidos';
-    }
-}

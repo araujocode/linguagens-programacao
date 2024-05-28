@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFDAA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 12px;
+    margin-bottom: 132.78px;
+}
+
+.emailinput{
+    margin-top: 47px;
+}
+
+.tela {
+   width: 817.78px;
+   height: 516px;
+   border-radius: 35.56px;
+   background-color: #FFB053;
+
+   display: flex;
+   justify-content: space-between;
+}
+
+.titulo{
+    width: 98px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center; 
+    color: #1F1F1F;
+}
+
+.btn {
+    width: 153.78px;
+    height: 40px;
+    border-radius: 8.89px;
+    opacity: 0px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+input{
+    width: 321.78px;
+    height: 40.89px;
+    border-radius: 8.89px;
+    border: none;
+    background: #EEEEEE;
+    margin-left: 45.89px;
+    display: flex;
+    flex-direction: column;
+    margin: 0, 13.33px;
+
+}
+
+.p1{
+    width: 181px;
+    height: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400%;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #F80E0E; 
+}
+
+.ola{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.titulo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600%;
+    font-size: 36px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 70px;
+    height: 24px;
+    margin-bottom: 67px;
+}
+
+.p2{
+    width: 325px;
+    height: 20px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 12.78px;
+}
+
+.btncadastrar{
+    width: 153.78px;
+    height: 40px;
+    border-radius: 8.89px;
+    background-color: #FF9200;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+{
+    "usuario": [
+        {
+        "nome": "Lucas",
+        "email": "lucas@gmail.com",
+        "senha": "25"
+        },
+        {
+        "nome": "Maria", 
+        "email": "maria@gmail.com",
+        "senha": "Maria"
+        },
+        {
+        "nome": "José",
+        "email": "jose@gmail.com",
+        "senha": "José"
+
+        },
+        {
+        "nome": "Ana",
+        "email": "ana@gmail.com",
+        "senha": "Ana"
+
+        },
+        {
+        "nome": "Pedro",
+        "email": "pedro@gmail.com",
+        "senha": "Pedro"
+
+        },
+        {
+        "nome": "Paula",
+        "email": "paula@gmail.com",
+        "senha": "Paula"
+
+        },
+        {
+        "nome": "Carlos",
+        "email": "carlos@gmail.com",
+        "senha": "Carlos"
+
+        },
+        {
+        "nome": "Marta",
+        "email": "marta@gmail.com",
+        "senha": "Marta"
+
+        },
+        {
+        "nome": "Ricardo",
+        "email": "ricardo@gmail.com",
+        "senha": "Ricardo"
+
+        },
+        {
+        "nome": "Rita",
+        "email": "rita@gmail.com",
+        "senha": "Rita"
+        }
+    ]
+}
